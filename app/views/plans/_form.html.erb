@@ -1,0 +1,412 @@
+<%= form_with(model: plan) do |form| %>
+  <% if plan.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(plan.errors.count, "error") %> prohibited this plan from being saved:</h2>
+
+      <ul>
+        <% plan.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :title1 %>
+    <%= form.text_field :title1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title2 %>
+    <%= form.text_field :title2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :title3 %>
+    <%= form.text_field :title3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :persona %>
+    <%= form.text_field :persona %>
+  </div>
+
+  <div class="field">
+    <%= form.label :online %>
+    <%= form.check_box :online %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description1 %>
+    <%= form.text_area :description1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description2 %>
+    <%= form.text_area :description2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description3 %>
+    <%= form.text_area :description3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :regio %>
+    <%= form.text_field :regio %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sectorcat %>
+    <%= form.text_field :sectorcat %>
+  </div>
+
+  <div class="field">
+    <%= form.label :functieact %>
+    <%= form.text_field :functieact %>
+  </div>
+
+  <div class="field">
+    <%= form.label :diploma %>
+    <%= form.text_field :diploma %>
+  </div>
+
+  <div class="field">
+    <%= form.label :language %>
+    <%= form.text_area :language %>
+  </div>
+
+  <div class="field">
+    <%= form.label :color1 %>
+    <%= form.text_field :color1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :color2 %>
+    <%= form.text_field :color2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :color3 %>
+    <%= form.text_field :color3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :string %>
+    <%= form.text_field :string %>
+  </div>
+
+  <div class="field">
+    <%= form.label :color4 %>
+    <%= form.text_field :color4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :color5 %>
+    <%= form.text_field :color5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :keywords1 %>
+    <%= form.text_area :keywords1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :keywords2 %>
+    <%= form.text_area :keywords2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :keywords3 %>
+    <%= form.text_area :keywords3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :keywords4 %>
+    <%= form.text_area :keywords4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :keywords5 %>
+    <%= form.text_area :keywords5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text1 %>
+    <%= form.text_field :text1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text2 %>
+    <%= form.text_field :text2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text3 %>
+    <%= form.text_field :text3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text4 %>
+    <%= form.text_field :text4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text5 %>
+    <%= form.text_field :text5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text6 %>
+    <%= form.text_field :text6 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text7 %>
+    <%= form.text_field :text7 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text8 %>
+    <%= form.text_field :text8 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text9 %>
+    <%= form.text_field :text9 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text10 %>
+    <%= form.text_field :text10 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text11 %>
+    <%= form.text_field :text11 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text12 %>
+    <%= form.text_field :text12 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text13 %>
+    <%= form.text_field :text13 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text14 %>
+    <%= form.text_field :text14 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text15 %>
+    <%= form.text_field :text15 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text16 %>
+    <%= form.text_field :text16 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text17 %>
+    <%= form.text_field :text17 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text18 %>
+    <%= form.text_field :text18 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text19 %>
+    <%= form.text_field :text19 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :text20 %>
+    <%= form.text_field :text20 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description1 %>
+    <%= form.text_area :description1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description2 %>
+    <%= form.text_area :description2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description3 %>
+    <%= form.text_area :description3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description4 %>
+    <%= form.text_area :description4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description5 %>
+    <%= form.text_area :description5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description6 %>
+    <%= form.text_area :description6 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description7 %>
+    <%= form.text_area :description7 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description8 %>
+    <%= form.text_area :description8 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description9 %>
+    <%= form.text_area :description9 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description10 %>
+    <%= form.text_area :description10 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description11 %>
+    <%= form.text_area :description11 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description12 %>
+    <%= form.text_area :description12 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description13 %>
+    <%= form.text_area :description13 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description14 %>
+    <%= form.text_area :description14 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description15 %>
+    <%= form.text_area :description15 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description16 %>
+    <%= form.text_area :description16 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description17 %>
+    <%= form.text_area :description17 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description18 %>
+    <%= form.text_area :description18 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description19 %>
+    <%= form.text_area :description19 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :description20 %>
+    <%= form.text_area :description20 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer1 %>
+    <%= form.number_field :integer1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer2 %>
+    <%= form.number_field :integer2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer3 %>
+    <%= form.number_field :integer3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer4 %>
+    <%= form.number_field :integer4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer5 %>
+    <%= form.number_field :integer5 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer6 %>
+    <%= form.number_field :integer6 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer7 %>
+    <%= form.number_field :integer7 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer8 %>
+    <%= form.number_field :integer8 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer9 %>
+    <%= form.number_field :integer9 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :integer10 %>
+    <%= form.number_field :integer10 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boolean1 %>
+    <%= form.check_box :boolean1 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boolean2 %>
+    <%= form.check_box :boolean2 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boolean3 %>
+    <%= form.check_box :boolean3 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boolean4 %>
+    <%= form.check_box :boolean4 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :boolean5 %>
+    <%= form.check_box :boolean5 %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
